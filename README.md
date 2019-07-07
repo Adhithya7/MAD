@@ -31,7 +31,7 @@
 
 1. Once the python codes are up and running, try accessing the following endpoints in your browser:
     1. http://localhost:8000/show_transactions
-    1. http://localhost:8000/transactions_count_per_minute/?min_value=15:53/   **Note: Replace *15:53* with the desired minute value in 24 hr format.**
+    1. http://localhost:8000/transactions_count_per_minute/?min_value=15:53/   **NOTE: Replace *15:53* with the desired minute value in 24 hr format.**
     1. http://localhost:8000/high_value_addr
   
 ## Information:
@@ -42,6 +42,8 @@
 1. Retention time has been set as 3hrs in redis for the addresses that are saved and used for computing the address with high aggregate transactions.
 
 1. Retention time has been set as 1hr in redis for the transaction count in last one hour.
+
+1. Ensure that the minute value entered is within the timeframe i.e For example, if the program was started at 18:00 and the endpoint is accessed at 18:50, ensure that the minute entered is within 18:00 - 18:50.
 
 1. The following algorithm was used for calculation the aggregate transactions:
     1. If the spent flag is set as True for the output address, the address is stored in the database and no change is made to the net transaction value i.e O is the increment value.
