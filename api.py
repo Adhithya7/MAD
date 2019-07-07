@@ -13,7 +13,7 @@ r2 = redis.Redis(host='localhost', port=6379, db=2)
 
 cherrypy.config.update({
     'server.socket_host':'127.0.0.1',
-    'server.socket_port':8000,
+    'server.socket_port':8000,  #Change the port if 8000 is occupied
     })
 
 consumer = KafkaConsumer(
