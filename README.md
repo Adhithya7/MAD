@@ -1,7 +1,7 @@
 # MadStreet Den
 
 ## Instructions:
-1. Download Kafka from the drive link:
+1. Download Kafka from the drive link: https://drive.google.com/open?id=1J5_C-qkE7Ci4es1RvkAikSCATFx27huh
 **Note**: This version is the version with my configurations.
 
 1. Download the three py files and the requirements.txt file.
