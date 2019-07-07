@@ -31,7 +31,7 @@
 
 1. Once the python codes are up and running, try accessing the following endpoints in your browser:
     1. http://localhost:8000/show_transactions
-    1. http://localhost:8000/transactions_count_per_minute/?min_value=15:53/  **Note: Replace *15:53* with the desired minute value in 24 hr format.
+    1. http://localhost:8000/transactions_count_per_minute/?min_value=15:53/   **Note: Replace *15:53* with the desired minute value in 24 hr format.**
     1. http://localhost:8000/high_value_addr
   
 ## Information:
