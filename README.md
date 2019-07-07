@@ -17,12 +17,12 @@
 
 1. Execute the following command to install the dependencies:
 
-    1. $pip3 install -r requirements.txt
+    1. $ pip3 install -r requirements.txt
   
 1. Run the following commands inside kafka_2.12-2.3.0/bin directory to ensure that the topic and retention time is set properly:
   
-    1. $./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic bchain
-    1. $./kafka-configs.sh --zookeeper localhost:2181 --alter --entity-type topics --entity-name bchain --add-config 'retention.ms=10800000'
+    1. $ ./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic bchain
+    1. $ ./kafka-configs.sh --zookeeper localhost:2181 --alter --entity-type topics --entity-name bchain --add-config 'retention.ms=10800000'
  
 1. Run the three python codes parallely in the order:
     1.producer.py
