@@ -1,4 +1,4 @@
-# MAD
+# MadStreet Den
 
 ## Instructions:
 1. Download Kafka from the drive link:
