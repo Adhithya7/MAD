@@ -6,7 +6,7 @@
 
 1. Download the three py files and the requirements.txt file.
 
-1. Extract the contents of Kafka zip file and move into the directory: kafka_2.12-2.3.0/bin/
+1. Move into the directory: kafka_2.12-2.3.0/bin/
 
 1. Start the zookeeper server and kafka server by executing the following command in two different terminals:
 
