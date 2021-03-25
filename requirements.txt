@@ -11,7 +11,7 @@ python-debian==0.1.32
 python-xapp==1.0.0
 pytz==2018.4
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.4
 pyzmq==17.0.0
 redis==3.2.1
 simplejson==3.13.2
